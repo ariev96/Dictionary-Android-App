@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navigation1"
+            android:checked="false"
+            android:icon="@drawable/ic_daftar"
+            android:title="@string/navigation_view_item_1" />
+        <item
+            android:id="@+id/navigation2"
+            android:checked="false"
+            android:icon="@drawable/ic_penerjemah"
+            android:title="@string/navigation_view_item_2" />
+        <item
+            android:id="@+id/navigation3"
+            android:checked="false"
+            android:icon="@drawable/ic_tenses"
+            android:title="@string/navigation_view_item_3" />
+
+        <item
+            android:id="@+id/navigation4"
+            android:checked="false"
+            android:icon="@drawable/ic_tenses"
+            android:title="@string/navigation_view_item_4" />
+
+
+    </group>
+
+
+    <item
+        android:id="@+id/navigasi_kategori_2"
+        android:title="@string/navigasi_kategori_2">
+        <menu>
+            <item
+                android:id="@+id/navigation5"
+                android:checked="false"
+                android:icon="@drawable/ic_bagikan"
+                android:title="@string/navigation_view_item_5" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigasi_kategori_3"
+        android:title="@string/navigasi_kategori_3">
+        <menu>
+
+            <item
+                android:id="@+id/navigation6"
+                android:checked="false"
+                android:title="@string/navigation_view_item_6" />
+            <item
+                android:id="@+id/navigation7"
+                android:checked="false"
+                android:title="@string/navigation_view_item_7" />
+            <item
+                android:id="@+id/navigation8"
+                android:checked="false"
+                android:title="@string/navigation_view_item_8" />
+
+            <item
+                android:id="@+id/navigation9"
+                android:checked="false"
+                android:title="@string/navigation_view_item_9" />
+
+        </menu>
+    </item>
+
+</menu>
